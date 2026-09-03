@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VERDA — умный сад у вас дома</title>
+  <meta name="description" content="VERDA — элегантная капсула для выращивания зелени дома: автополив, освещение и климат-контроль.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="page">
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#" class="logo" aria-label="VERDA — на главную">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+        </svg>
+        Verda
+      </a>
+      <nav class="nav__links" aria-label="Основная навигация">
+        <a href="#features">Возможности</a>
+        <a href="#tech">Технологии</a>
+        <a href="#steps">Как это работает</a>
+        <a href="#reviews">Отзывы</a>
+      </nav>
+      <a href="#preorder" class="btn btn--accent nav__cta">
+        Предзаказ
+        <span class="btn__circle" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__inner">
+
+        <div class="hero__visual reveal" aria-hidden="true">
+          <svg viewBox="0 0 420 520" width="100%" role="img">
+            <defs>
+              <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#EDEEE8"/>
+                <stop offset="100%" stop-color="#D4D7CB"/>
+              </linearGradient>
+              <linearGradient id="mossA" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#8FA845"/>
+                <stop offset="100%" stop-color="#5C6E1E"/>
+              </linearGradient>
+              <linearGradient id="skyfade" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#F4F6EF"/>
+                <stop offset="100%" stop-color="#E2E6D8"/>
+              </linearGradient>
+            </defs>
+            <rect width="420" height="520" rx="24" fill="url(#skyfade)"/>
+            <!-- каменный монолит -->
+            <path d="M70 520 L85 210 Q88 170 128 168 L210 160 Q245 158 248 195 L262 520 Z" fill="url(#stone)"/>
+            <!-- мох на монолите -->
+            <g fill="url(#mossA)">
+              <ellipse cx="150" cy="175" rx="86" ry="40"/>
+              <ellipse cx="95" cy="205" rx="38" ry="24"/>
+              <ellipse cx="215" cy="200" rx="44" ry="26"/>
+              <ellipse cx="160" cy="150" rx="48" ry="26"/>
+            </g>
+            <g fill="#7FA31B" opacity="0.9">
+              <ellipse cx="130" cy="158" rx="30" ry="16"/>
+              <ellipse cx="192" cy="168" rx="26" ry="14"/>
+              <ellipse cx="105" cy="188" rx="20" ry="12"/>
+            </g>
+            <!-- свисающие растения -->
+            <path d="M120 205 q-8 60 6 120" stroke="#6B7F26" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <path d="M205 210 q10 50 -2 105" stroke="#6B7F26" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <g fill="#8FA845">
+              <ellipse cx="124" cy="250" rx="10" ry="5"/><ellipse cx="119" cy="290" rx="10" ry="5"/><ellipse cx="126" cy="325" rx="9" ry="5"/>
+              <ellipse cx="208" cy="248" rx="10" ry="5"/><ellipse cx="205" cy="288" rx="9" ry="5"/>
+            </g>
+            <!-- капсула VERDA у подножия -->
+            <ellipse cx="330" cy="470" rx="64" ry="14" fill="#D4D7CB"/>
+            <ellipse cx="330" cy="400" rx="56" ry="72" fill="#F7F8F3" stroke="#C9CDBD" stroke-width="2"/>
+            <ellipse cx="330" cy="402" rx="38" ry="52" fill="#Eef1e4" stroke="#B9BFA8" stroke-width="2"/>
+            <g fill="#6B7F26">
+              <circle cx="316" cy="384" r="8"/><circle cx="334" cy="378" r="10"/><circle cx="348" cy="388" r="7"/>
+              <circle cx="318" cy="414" r="9"/><circle cx="338" cy="410" r="10"/><circle cx="350" cy="420" r="6"/>
+            </g>
+            <circle cx="330" cy="342" r="4" fill="#5C6E1E"/>
+          </svg>
+        </div>
+
+        <div class="hero__text">
+          <div class="hero__chip">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+            Первая партия — весна 2027
+          </div>
+          <h1 class="display">Природа,<br>живущая<br><em>у вас дома.</em></h1>
+          <p class="hero__sub">VERDA — элегантная капсула, которая сама выращивает свежую зелень: свет, полив и климат под управлением умной системы.</p>
+          <div class="hero__actions">
+            <a href="#preorder" class="btn btn--accent btn--lg">
+              Оформить предзаказ
+              <span class="btn__circle" aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg>
+              </span>
+            </a>
+            <a href="#features" class="link-more">Узнать больше</a>
+          </div>
+        </div>
+      </div>
+
+      <ul class="container hero__stats reveal" aria-label="Ключевые показатели">
+        <li><strong>×3</strong><span>быстрее, чем на подоконнике</span></li>
+        <li><strong>18</strong><span>растений одновременно</span></li>
+        <li><strong>90%</strong><span>меньше воды</span></li>
+        <li><strong>0</strong><span>пестицидов</span></li>
+      </ul>
+    </section>
+
+    <!-- Лента -->
+    <div class="strip" aria-hidden="true">
+      <span>Свежая зелень 365 дней</span><i></i>
+      <span>Автополив</span><i></i>
+      <span>Климат-контроль</span><i></i>
+      <span>Управление со смартфона</span>
+    </div>
+
+    <!-- Возможности -->
+    <section class="section" id="features">
+      <div class="container">
+        <p class="eyebrow">Возможности</p>
+        <h2 class="display display--md">Сад, который <em>думает сам.</em></h2>
+        <div class="cards reveal-group">
+          <article class="card reveal">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+            <h3>Умное освещение</h3>
+            <p>Полноспектральные LED-панели повторяют солнечный день и подстраиваются под фазу роста каждого растения.</p>
+          </article>
+          <article class="card reveal">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7Z"/></svg>
+            <h3>Автополив</h3>
+            <p>Гидропонная система дозирует воду и питательный раствор. Резервуара хватает на три недели автономии.</p>
+          </article>
+          <article class="card reveal">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"/></svg>
+            <h3>Климат-контроль</h3>
+            <p>Датчики температуры и влажности держат идеальный микроклимат внутри капсулы в любое время года.</p>
+          </article>
+          <article class="card reveal">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+            <h3>Приложение</h3>
+            <p>Следите за ростом, получайте уведомления об урожае и управляйте капсулой с телефона из любой точки мира.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Технологии -->
+    <section class="section section--tint" id="tech">
+      <div class="container split">
+        <div class="split__text reveal">
+          <p class="eyebrow">Технологии</p>
+          <h2 class="display display--md">Ферма будущего.<br><em>Внутри дома.</em></h2>
+          <p class="split__desc">Внутри VERDA — та же технология, что на промышленных вертикальных фермах, упакованная в объект размером с торшер. Никакой земли: корни растут в питательном тумане.</p>
+          <ul class="ticks">
+            <li>Аэропонная система последнего поколения</li>
+            <li>Тихая работа — до 24 дБ, тише шёпота</li>
+            <li>Потребление энергии — как у лампочки, 60 Вт</li>
+            <li>Капсулы с семенами без ГМО: 40+ культур</li>
+          </ul>
+        </div>
+        <div class="split__panel reveal" aria-hidden="true">
+          <div class="panel">
+            <div class="panel__row"><span>Освещение</span><div class="meter"><div style="width:82%"></div></div><strong>82%</strong></div>
+            <div class="panel__row"><span>Влажность</span><div class="meter"><div style="width:64%"></div></div><strong>64%</strong></div>
+            <div class="panel__row"><span>Раствор</span><div class="meter"><div style="width:91%"></div></div><strong>91%</strong></div>
+            <div class="panel__row"><span>Температура</span><div class="meter"><div style="width:47%"></div></div><strong>23°C</strong></div>
+            <div class="panel__status"><span class="dot"></span>Все системы в норме · урожай через 6 дней</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Как это работает -->
+    <section class="section" id="steps">
+      <div class="container">
+        <p class="eyebrow">Как это работает</p>
+        <h2 class="display display--md">Три шага <em>до урожая.</em></h2>
+        <ol class="steps reveal-group">
+          <li class="step reveal">
+            <span class="step__num">01</span>
+            <h3>Вставьте капсулу</h3>
+            <p>Выберите капсулу с семенами — базилик, руккола, клубника или 40 других культур — и вставьте в ячейку.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">02</span>
+            <h3>Залейте воду</h3>
+            <p>Один резервуар — три недели без вашего участия. Система сама добавит питательный раствор.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">03</span>
+            <h3>Собирайте урожай</h3>
+            <p>Через 3–5 недель приложение сообщит, что зелень готова. Срезайте — и она отрастёт снова.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="section section--tint" id="reviews">
+      <div class="container">
+        <p class="eyebrow">Отзывы</p>
+        <h2 class="display display--md">Уже растёт <em>в 400 домах.</em></h2>
+        <div class="quotes reveal-group">
+          <blockquote class="quote reveal">
+            <p>«Салат из собственной гостиной звучал как фантастика. Через месяц перестала покупать зелень совсем».</p>
+            <footer>Марина · бета-тестер, Москва</footer>
+          </blockquote>
+          <blockquote class="quote reveal">
+            <p>«Работает действительно тихо, а ночью подсветка приглушается сама. Дети следят за ростом через приложение».</p>
+            <footer>Дмитрий · бета-тестер, Казань</footer>
+          </blockquote>
+          <blockquote class="quote reveal">
+            <p>«Самый красивый предмет в квартире. Гости думают, что это арт-объект, пока я не срезаю с него базилик».</p>
+            <footer>Алёна · дизайнер интерьеров</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Предзаказ -->
+    <section class="cta" id="preorder">
+      <div class="container cta__inner reveal">
+        <h2 class="display display--md">Урожай начинается <em>здесь.</em></h2>
+        <p>Первая партия — весна 2027. Предзаказ фиксирует цену <strong>49 900 ₽</strong> вместо 64 900 ₽ и включает годовой запас капсул с семенами.</p>
+        <form class="cta__form" id="preorderForm" novalidate>
+          <label class="visually-hidden" for="emailInput">Электронная почта</label>
+          <input type="email" id="emailInput" name="email" placeholder="ваша@почта.ru" autocomplete="email" required>
+          <button type="submit" class="btn btn--accent btn--lg">Занять место</button>
+        </form>
+        <p class="cta__hint" id="formHint">Демо-режим: данные никуда не отправляются</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© 2026 VERDA. Демо-лендинг — продукт и отзывы вымышленные.</p>
+      <p>Дизайн-референс: Kris Anfalova (Dribbble)</p>
+    </div>
+  </footer>
+
+</div>
+  <script src="app.js"></script>
+</body>
+</html>
